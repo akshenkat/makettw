@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    background: #FFF;
+    width: 1915px;
+    
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 1200px;
+    height: 491px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    
+}
+
+.top {
+    width: 370px;
+    height: 289px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.content {
+    width: 1200px;
+    height: 616px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 370px;
+    height: 549px;     
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0; 
+    background-color: orangered;
+    border: solid black 1px; 
+    border-radius: 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+   font-family: Gilroy-Bold;
+   font-size: 45px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.text {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.topdif {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    width: 370px;
+    height: 289px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.carddif {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+    width: 370px;
+    height: 549px;     
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 20px;   
+}
+
+h2 {
+    color: #000;
+   font-family: Gilroy-Bold;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+p {
+    color: #666;
+   font-family: Gilroy-Regular;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 150%; /* 22.5px */
+}
